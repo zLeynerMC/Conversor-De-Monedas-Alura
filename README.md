@@ -1,47 +1,54 @@
-# Challenge de Alura - Registro de Conversaciones
+# 💱 Conversor de Monedas - Alura Challenge
 
-Este proyecto forma parte del **Challenge de Alura**, un desafío diseñado para desarrollar habilidades en Java y la gestión de archivos. La aplicación permite registrar conversaciones en un archivo de texto, incluyendo la fecha y hora de cada mensaje.
+Este proyecto es parte del **Challenge de Back-End** ofrecido por [Alura](https://www.alura.com). El objetivo es desarrollar un conversor de monedas funcional, que permita convertir entre diferentes divisas.
 
-## 📋 Características
+## 🚀 Funcionalidades
 
-- **Registro de conversaciones**: Cada mensaje se guarda junto con su marca de tiempo.
-- **Gestión de archivos**: Los mensajes se almacenan en un archivo de texto llamado `registro_conversacion.txt`.
-- **Fácil de usar**: Simplemente ejecuta el programa y registra tus mensajes.
+- Conversión entre múltiples monedas (USD, EUR, GBP, JPY, etc.).
+- Interfaz de consola intuitiva.
+- Registro de las conversiones realizadas.
 
-## 🛠️ Requisitos
+## 🛠️ Tecnologías Utilizadas
 
-- Java 8 o superior.
-- Un IDE como IntelliJ, Eclipse o simplemente usa la terminal para compilar y ejecutar el programa.
+- **Java**: Lenguaje principal.
+- **Java I/O**: Para la entrada/salida de datos.
+- **Java Swing** (opcional): Para una posible interfaz gráfica.
+- **APIs Externas** (opcional): Para obtener tasas de cambio actualizadas.
 
-## 🚀 ¿Cómo usar?
+## 📖 Cómo Usar
 
-1. **Clona este repositorio**:
-   ```bash
-   git clone https://github.com/zLeynerMC/Conversor-De-Monedas-Alura.git
+1. **Clona el repositorio**:
+    ```bash
+    git clone https://github.com/zLeynerMC/Conversor-De-Monedas-Alura.git
+    cd Conversor-De-Monedas-Alura
+    ```
 
-2. **Navega a la carpeta del proyecto:**:
-   ```bash
-   cd nombre_del_repositorio
+2. **Compila el proyecto**:
+    ```bash
+    javac src/*.java -d bin
+    ```
 
-3. **Compila y ejecuta el programa:**
-   ```bash
-   javac Principal.java
-   java Principal
+3. **Ejecuta la aplicación**:
+    ```bash
+    java -cp bin Principal
+    ```
 
-4. **Sigue las instrucciones en la consola** para ingresar y registrar mensajes. Los mensajes se guardarán en el archivo `registro_conversacion.txt`.
+4. **Sigue las instrucciones** para ingresar la moneda de origen, la moneda de destino y el monto a convertir.
 
 ## 📂 Estructura del Proyecto
 
-- **Principal.java**: Clase principal que inicia la aplicación.
-- **Registro.java**: Maneja la escritura de mensajes en el archivo.
-- **Conversacion.java**: Representa cada mensaje con su respectiva fecha y hora.
-- **Acceso.java**: Gestiona la lógica principal de interacción del usuario.
+- **Principal.java**: Inicia el programa.
+- **Conversor.java**: Lógica para calcular la conversión.
+- **Moneda.java**: Clase para representar una moneda.
+- **Registro.java**: Guarda un historial de conversiones (opcional).
 
 ## 📚 Sobre Alura
 
-**Alura** es una plataforma de aprendizaje en línea que ofrece cursos sobre programación, diseño, negocios, y más. Este proyecto es parte de su programa de formación a través de retos prácticos.
+**Alura** es una plataforma de aprendizaje en línea que ofrece cursos sobre programación, diseño, negocios, y más. Este proyecto es parte de su programa de formación basado en retos prácticos.
 
 ## 💻 Autor
 
 **Leyner Duque**  
 [GitHub](https://github.com/zLeynerMC) | [LinkedIn](https://www.linkedin.com/in/leyner-duque/)
+
+## 🏆 ¡Acepte el reto y seguire mejorando!
