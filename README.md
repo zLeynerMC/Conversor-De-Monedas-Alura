@@ -38,8 +38,8 @@ Este proyecto es parte del **Challenge de Back-End** ofrecido por [Alura](https:
 ## 📂 Estructura del Proyecto
 
 - **Principal.java**: Inicia el programa.
-- **Conversor.java**: Lógica para calcular la conversión.
-- **Moneda.java**: Clase para representar una moneda.
+- **GestorDeMonedas.java**: Lógica para calcular la conversión.
+- **ApiHandler.java**: Clase para Mantener La Logica De Una API.
 - **Registro.java**: Guarda un historial de conversiones (opcional).
 
 ## 📚 Sobre Alura
